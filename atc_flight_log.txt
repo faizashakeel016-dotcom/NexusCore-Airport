@@ -1,0 +1,25 @@
+
+=== ATC Execution Log: First-Come-First-Served (FCFS) - Standard Queue ===
+Mins 0: PK-301 Landed | Runway Time: 3m | Free Hangar: 896
+Mins 3: PK-302 Landed | Runway Time: 4m | Free Hangar: 768
+Mins 7: PK-303 Landed | Runway Time: 5m | Free Hangar: 640
+SUMMARY -> Avg Wait: 3.33m | Avg TAT: 7.33m
+
+
+=== ATC Execution Log: Shortest Job First (SJF) - Fuel Optimization Mode ===
+Mins 0: PK-301 Landed | Runway Time: 3m | Free Hangar: 896
+Mins 3: PK-302 Landed | Runway Time: 4m | Free Hangar: 768
+Mins 7: PK-303 Landed | Runway Time: 5m | Free Hangar: 640
+SUMMARY -> Avg Wait: 3.33m | Avg TAT: 7.33m
+
+
+=== ATC Execution Log: Round Robin (RR) - Equal Share Airspace (Quantum = 2m) ===
+Mins 0: PK-301 active window
+Mins 2: PK-302 active window
+Mins 4: PK-303 active window
+Mins 6: PK-301 final landing complete.
+Mins 7: PK-302 final landing complete.
+Mins 9: PK-303 active window
+Mins 11: PK-303 final landing complete.
+SUMMARY RR -> Avg Wait: 5.33m | Avg TAT: 9.33m
+
